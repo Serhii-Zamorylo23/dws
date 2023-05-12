@@ -1,0 +1,16 @@
+body {
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  background: blue;
+  justify-content: space-around;
+}
+.header_list {
+  display: flex;
+  list-style: none;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

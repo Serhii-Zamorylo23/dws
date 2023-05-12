@@ -1,0 +1,14 @@
+body{
+    align-items: center;
+}
+.header{
+    display:flex;
+    background: blue;
+    justify-content: space-around;
+    &_list{
+        display: flex;
+        list-style: none;
+        column-gap: 10px;
+        text-decoration: none;
+    }
+}
