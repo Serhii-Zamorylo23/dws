@@ -5,10 +5,16 @@ body{
     display:flex;
     background: blue;
     justify-content: space-around;
-    &_list{
-        display: flex;
-        list-style: none;
-        column-gap: 10px;
-        text-decoration: none;
+    &_nav{
+        &_list{
+            display: flex;
+            column-gap: 10px;
+            text-decoration: none;
+        }
+        &_item{
+            &_link{
+                text-decoration: none;
+            }
+        }
     }
 }
