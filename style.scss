@@ -1,3 +1,7 @@
+@mixin color($color){
+    color: $color;
+    font-family: 'Mulish', sans-serif;
+}
 body{
     align-items: center;
 }
@@ -10,11 +14,13 @@ body{
             display: flex;
             column-gap: 10px;
             text-decoration: none;
-        }
-        &_item{
-            &_link{
-                text-decoration: none;
+            &_item{
+                &_link{
+                    text-decoration: none;
+                    @include color(Red)
+                }
             }
         }
+        
     }
 }

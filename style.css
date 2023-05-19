@@ -13,6 +13,8 @@ body {
        column-gap: 10px;
   text-decoration: none;
 }
-.header_nav_item_link {
+.header_nav_list_item_link {
   text-decoration: none;
+  color: Red;
+  font-family: "Mulish", sans-serif;
 }/*# sourceMappingURL=style.css.map */
